@@ -1,4 +1,93 @@
+
 .header {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  column-gap: 138px;
+  border-bottom: 1px solid  #a0aece;
+}
+
+.header__logo {
+  margin: 8px 32px;
+  display: flex;
+  align-items: center;
+  column-gap: 66px;
+  height: 64px;
+}
+
+.header__location {
+  display: flex;
+  align-items: center;
+  font-family: 'Intro';
+  padding-bottom: 4px;
+  padding-left: 1px;
+}
+
+.header__location img {
+  padding-right: 8px;
+}
+
+
+.header__track-wrapper {
+  position: relative;
+  width: 162px;
+}
+
+.header__track {
+  flex: 1;
+  width: 184px;
+  height: 40px;
+  padding: 8px 8px 8px 17px;
+  border-radius: 8px;
+  border: 1px solid var(--Colour-LightBlue, #C2D2F4);
+  background: #FFF;
+  box-sizing: border-box;
+}
+
+/* Иконка лупы */
+.header__track-icon {
+  position: absolute;
+  left: 96%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  pointer-events: none; 
+}
+.header__track::placeholder {
+  color: #999; 
+  font-style: italic; 
+}
+
+
+.header__nav {
+  flex: 2;
+  display: flex;
+  gap: 31px;
+  justify-content: flex-end;
+  margin-right: 32px;
+ 
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: rgba(102, 102, 102, 1);
+  align-items: center;
+  display: flex;
+  font-family: 'Intro';
+  font-size: 16px ;
+  padding-bottom: 3px;
+}
+
+.log{
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: var(--Colour-Blue, #2B6BF3);
+}
+.nav_chld2 {
+ padding-left: 6px;
 }
