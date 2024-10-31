@@ -1,0 +1,11 @@
+.banner img {
+    position: absolute;
+    top: 152px;
+    left: 414px;
+}
+.banner {
+    background-color: #F8FAFF;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+}

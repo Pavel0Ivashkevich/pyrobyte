@@ -1,0 +1,123 @@
+/* src/styles/OrderForm.css */
+.order-form {
+    width: 360px;
+    padding: 20px;
+    border: 1px solid #a0aece;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.order-form h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.order-form__types {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+}
+
+.order-form__types button {
+    background-color: #f7f9ff;
+    border: 1px solid #d1d9f2;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #6576a3;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+/* Левая кнопка */
+.order-form__types button:first-child  {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+   
+}
+.order-form__types button:first-child  img {
+    padding-top: 10px;
+}
+/* Центральная кнопка */
+.order-form__types button:nth-child(2) {
+    border-radius: 0;
+   
+}
+
+/* Правая кнопка */
+.order-form__types button:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Стили для активной кнопки */
+.order-form__types button.active {
+    background-color: #dde5ff;
+    color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+
+
+.order-form__types button:hover,
+.order-form__types button.active {
+    background-color: #dde5ff;
+    color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.order-form input {
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #d1d9f2;
+    font-size: 14px;
+    color: #333;
+}
+
+.order-form input::placeholder {
+    color: #a0aece;
+}
+
+.order-form__submit {
+    width: calc(100% - 40px);
+    margin: 20px 20px 10px 20px;
+    padding: 12px;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-form__submit:hover {
+    background-color: #155bb5;
+}
+
+.order-form button.clear-all {
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 14px;
+    color: #6576a3;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
