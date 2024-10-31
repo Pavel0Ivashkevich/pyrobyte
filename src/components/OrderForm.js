@@ -1,4 +1,3 @@
-// src/components/OrderForm.js
 import React, { useState } from 'react';
 import '../styles/OrderForm.css';
 
@@ -12,7 +11,7 @@ const OrderForm = () => {
   };
 
   return (
-    <>
+    <div className="order">
     <div className="order-form">
       <h3>Send a Parcel 
         <img src={`${process.env.PUBLIC_URL}/images/i.png`} alt="info icon" />
@@ -68,11 +67,11 @@ const OrderForm = () => {
         <img 
           src={`${process.env.PUBLIC_URL}/images/search-icon.png`} 
           alt="Search Icon" 
-          className="header__track-icon" 
+          className="track-icon" 
         />
       </div>
     </div>
-</>    
+</div>    
   );
 };
 

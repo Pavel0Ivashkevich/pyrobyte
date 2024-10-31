@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header.js';
 import Banner from './components/Banner';
 import OrderForm from './components/OrderForm';
+import Service from './components/Service';
 import PartnersSlider from './components/PartnersSlider';
 import PaymentMethods from './components/PaymentMethods';
 import Footer from './components/Footer';

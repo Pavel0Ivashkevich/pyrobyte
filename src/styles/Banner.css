@@ -1,11 +1,13 @@
-.banner img {
+.banner_img {
     position: absolute;
     top: 152px;
     left: 414px;
+    z-index: 0;
 }
 .banner {
     background-color: #F8FAFF;
     display: flex;
     justify-content: space-between;
-    z-index: 0;
+    height: 784px;
+    
 }
