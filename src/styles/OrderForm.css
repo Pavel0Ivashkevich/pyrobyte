@@ -1,11 +1,13 @@
 .order {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 71px;
     z-index: 1;
+    margin-right: 32px;
+    margin-top: 36px;
 }
 .order-form {
-    width: 360px;
+    width: 358px;
     height: 500px;
     padding: 20px;
     border: 1px solid #a0aece;
@@ -19,26 +21,38 @@
 .order-form h3 {
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-
+    gap: 17px;
+    color: var(--Colour-DarkBlue, #1D253C);
+    font-family: "Intro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 31px;
+    margin-left: 30px;
+    margin-bottom: 19px;
 }
 
 
 .order-form__types {
     display: flex;
     flex-wrap: nowrap;
-    margin: 20px 0;
+    margin: 25px 32px;
+   
 }
 
 .order-form__types button {
     background-color: #f7f9ff;
-    border: 1px solid #d1d9f2;
-    padding: 10px 20px;
-    font-size: 14px;
-    color: #6576a3;
+    border: 2px solid #d1d9f2;
+ 
+    width: 96px;
+    height: 84px;
+    color: var(--Colour-DarkBlue, #1D253C);
+    text-align: center;
+    font-family: "Intro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
     display: flex;
@@ -53,6 +67,7 @@
 .order-form__types button:first-child  {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    gap: 10px;
    
 }
 .order-form__types button:first-child  img {
@@ -61,7 +76,7 @@
 /* Центральная кнопка */
 .order-form__types button:nth-child(2) {
     border-radius: 0;
-   
+    
 }
 
 /* Правая кнопка */
@@ -85,15 +100,50 @@
     color: #1a73e8;
     border-color: #1a73e8;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;   
+    margin-top: 34px;
+}
+.container img{
+    width: 24px;
+    height: 112px;
+    position: relative;
+    top: 9px;
+}
+.location {
+    margin: 0; 
+    text-align: left;
+    color: #C4CEE5;
+    font-family: "Intro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+}
+.Pickup{
+    display: flex;
+    flex-direction: column;
 
+}
+.drop_loc {
+    margin-top: 38px;
+}
 .order-form input {
-    width: calc(100% - 40px);
-    margin: 10px 20px;
-    padding: 10px;
+    width: 256px;
+    height: 34px;
+    margin-top: 35px; 
+    padding: 0px;
     border: none;
     border-bottom: 1px solid #d1d9f2;
     font-size: 14px;
     color: #333;
+    margin-top: 0;
+   
 }
 
 .order-form input::placeholder {
@@ -101,13 +151,14 @@
 }
 
 .order-form__submit {
-    width: calc(100% - 40px);
-    margin: 20px 20px 10px 20px;
+    width: 296px;
+    height: 48px;
+    margin: 40px 3px 10px 0px;
     padding: 12px;
     background-color: #1a73e8;
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 37px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
@@ -121,13 +172,13 @@
 .order-form button.clear-all {
     width: calc(100% - 40px);
     
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
     color: #6576a3;
     background: none;
     border: none;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .track {
@@ -141,6 +192,12 @@
 
 .clear-all {
     margin: 0;
+    color: #999;
+    font-family: "Intro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
 }
 
 .loc {
@@ -152,10 +209,14 @@
     line-height: 32px;
     display:flex;
     justify-content: flex-start;
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-left: 39px;
 }
+
 .track_pcg {
-    width: 248px;
-    height: 40px;
+    width: 276px;
+    height: 39px;
     border-radius: 4px;
     background: #FFF;
     border: 0;
@@ -163,7 +224,10 @@
 }
  .track-icon {
     position: relative;
-    left: -23px;
+    left: -29px;
     top: 2px;
     pointer-events: none;
  }
+ .track-wrapper {
+    padding-left: 18px;
+}

@@ -1,0 +1,85 @@
+.express-delivery-section {
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding-top: 63px;
+  }
+  
+  .title {
+    color: var(--Colour-DarkBlue, #1D253C);
+    text-align: center;
+    font-family: "Intro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+  }
+  
+  .subtitle {
+    color: var(--Colour-DarkBlue, #1D253C);
+    text-align: center;
+    font-family: "Intro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 754px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 51px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background-color: #F6F8FB;
+    padding-left: 22px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    width: 260px;
+    height: 257px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s;
+    border: 1px solid #C2D2F4;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    position: relative;
+    top: 16px;
+    left: -8px;
+}
+
+  
+  .card h3 {
+    color: var(--Colour-DarkBlue, #1D253C);
+    font-family: "Intro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 15px;
+  }
+  
+  .card p {
+    color: #666;
+    font-family: "Intro ";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+  }
+  
+  

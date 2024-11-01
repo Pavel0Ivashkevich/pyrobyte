@@ -4,6 +4,7 @@ import Header from './components/Header.js';
 import Banner from './components/Banner';
 import OrderForm from './components/OrderForm';
 import Service from './components/Service';
+import Express from './components/Express';
 import PartnersSlider from './components/PartnersSlider';
 import PaymentMethods from './components/PaymentMethods';
 import Footer from './components/Footer';
@@ -17,9 +18,10 @@ function App() {
         <Service/>
         <OrderForm />
         </Banner>
-      {/* <PartnersSlider />
-      <PaymentMethods />
-      <Footer /> */}
+        <Express/>
+      <PartnersSlider />
+      {/* // <PaymentMethods />
+      // <Footer /> */} 
     </div>
   );
 }

@@ -1,8 +1,10 @@
 .service {
     display: flex;
     flex-direction: column;
-    
+    margin-left: 104px;
+    margin-top: 30px;
     width: 375px;
+    z-index: 1;
 }
 .work_in {
     display: flex;
@@ -13,8 +15,8 @@
 .work_in h1 {
     color: var(--Colour-DarkBlue, #1D253C);
 
-   
-    font-family: "Intro Bold";
+   margin-bottom: 20px;
+    font-family: "Intro";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -24,8 +26,8 @@
 .work_in p{
     color: #666;
     width: 360px;
-    
-    font-family: "Intro Book";
+    margin-bottom: 33px;
+    font-family: "Intro";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -34,18 +36,19 @@
 
 .work_in a{ 
     color: var(--Colour-Blue, #2B6BF3);
-    font-family: "Intro Regular";
+    font-family: "Intro";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
+    margin-bottom: 64px;
 }
 
 .how_it h2 {
     color: var(--Colour-DarkBlue, #1D253C);
-
+    margin-bottom: 23px;
 text-align: left;
-font-family: "Intro Regular";
+font-family: "Intro";
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
@@ -53,9 +56,9 @@ line-height: 32px;
 
 }
 
-.how_it video {
+.how_it iframe {
     border-radius: 8px;
-    width: 374px;
-    height: 232px;
+    width: 372px;
+    height: 230px;
 
 }
