@@ -37,6 +37,7 @@ const PartnersSlider = () => {
           />
         ))}
       </div>
+      <img className='Intersect' src={`${process.env.PUBLIC_URL}/images/Intersect.png`} alt="Intersect" />
     </div>
 </>
   );

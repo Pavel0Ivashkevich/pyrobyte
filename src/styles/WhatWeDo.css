@@ -1,0 +1,94 @@
+.WhatWeDo{
+    border-radius: 292px 0 0 292px;
+    overflow: hidden; 
+    background-color: #F8FAFF;
+    height: 640px;
+}
+.WhatWeDo h1{
+    color: var(--Colour-DarkBlue, #1D253C);
+    text-align: center;
+    font-family: "Intro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    margin-top: 66px;
+    margin-bottom: 30px;
+}
+
+   
+.WhatWeDo button{
+    width: 296px;
+    height: 48px;
+    background-color: rgba(255, 221, 45, 1);
+    color: rgba(29, 37, 60, 1);
+    text-align: center;
+    font-family: "Intro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    border-radius: 29px;
+    border-color: rgba(255, 221, 45, 1);
+    margin-top: 26px;
+}
+.courier {
+    color: var(--Colour-DarkBlue, #1D253C);
+    max-width: 754px;
+    font-family: "Intro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 9px;
+}
+
+.advantag{
+    padding-left: 22px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    width: 260px;
+    height: 257px;
+    border-radius: 8px;
+    text-align: left;
+}
+.advantag h3{
+    color: var(--Colour-DarkBlue, #1D253C);
+    font-family: "Intro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.advantag p{
+    color: #666;
+    font-family: "Intro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    width: 300px;
+    text-align: left;
+}
+
+.advantages {
+   display: flex;
+   justify-content: center;
+    text-align: left;
+    padding-top: 7px;
+    gap: 52px;
+    padding-right: 47px;
+    
+}
+.advantag img{
+position: relative;
+top: 27px;
+left: -17px;
+}
+.Intersect {
+    position: absolute;
+    top: 1760px;
+    right: 0px;
+}
