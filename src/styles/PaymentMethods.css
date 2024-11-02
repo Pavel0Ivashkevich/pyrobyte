@@ -1,0 +1,62 @@
+.PaymentMethods {
+    text-align: center;
+}
+
+.PaymentMethods h1 {
+    margin-top: 92px;
+    margin-bottom: 56px;
+    color: var(--Colour-DarkBlue, #1D253C);
+    font-family: "Intro";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px; 
+}
+
+.Pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden; 
+    width: calc(100% - 120px); 
+    max-width: 1024px; 
+    gap: 104px; 
+    margin: 0 171px; 
+     transition: transform 0.5s ease;
+}
+
+.image {
+    width: 84px; 
+    height: auto; 
+}
+
+.arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.arrow.left {
+    position: absolute;
+    left: 94px; 
+    z-index: 1; 
+}
+
+.arrow.right {
+    position: absolute;
+    right: 93px; 
+    z-index: 1; 
+}
+
+.arrow:disabled {
+    opacity: 0.5; 
+    cursor: not-allowed; 
+}

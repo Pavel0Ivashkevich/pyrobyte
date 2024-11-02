@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from './components/Header.js';
 import Banner from './components/Banner';
@@ -8,6 +7,7 @@ import Express from './components/Express';
 import PartnersSlider from './components/PartnersSlider';
 import WhatWeDo from './components/WhatWeDo';
 import PaymentMethods from './components/PaymentMethods';
+import Since from './components/Since';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -22,8 +22,9 @@ function App() {
         <Express/>
       <PartnersSlider />
       <WhatWeDo/>
-      {/* // <PaymentMethods />
-      // <Footer /> */} 
+      <PaymentMethods />
+      <Since />
+       <Footer /> 
     </div>
   );
 }
