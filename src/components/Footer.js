@@ -41,15 +41,15 @@ const Footer = () => {
             <h3>CONTACT US</h3>
             <h2>8 800 934 5959</h2>
             <div className='adress-container'>
-        <img src={`${process.env.PUBLIC_URL}/images/pin-blue.png`} alt="pin-blue" />
+        <img src={`${process.env.PUBLIC_URL}/images/Pin-blue.png`} alt="pin-blue" />
         <p>2545 W. Diversey Ave.<br/>
           3rd Floor Chicago, IL 60647</p>
         </div>
         <div className='social'>
-        <img src={`${process.env.PUBLIC_URL}/images/facebook.png`} alt="facebook" />
-        <img src={`${process.env.PUBLIC_URL}/images/vk.png`} alt="vk" />
-        <img src={`${process.env.PUBLIC_URL}/images/youtube.png`} alt="youtube" />
-        <img src={`${process.env.PUBLIC_URL}/images/instagram.png`} alt="instagram" />
+        <img src={`${process.env.PUBLIC_URL}/images/Facebook.png`} alt="facebook" />
+        <img src={`${process.env.PUBLIC_URL}/images/VK.png`} alt="vk" />
+        <img src={`${process.env.PUBLIC_URL}/images/Youtube.png`} alt="youtube" />
+        <img src={`${process.env.PUBLIC_URL}/images/Instagram.png`} alt="instagram" />
         </div>
         </nav>
       </div>
