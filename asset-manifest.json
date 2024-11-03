@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pavel0Ivashkevich/static/css/main.64a72355.css",
+    "main.js": "/Pavel0Ivashkevich/static/js/main.5c0574ee.js",
+    "static/js/453.21c4e07c.chunk.js": "/Pavel0Ivashkevich/static/js/453.21c4e07c.chunk.js",
+    "static/media/Intro-Book-Italic.eot": "/Pavel0Ivashkevich/static/media/Intro-Book-Italic.880b303713f057bd693b.eot",
+    "static/media/Intro-Book-Italic.ttf": "/Pavel0Ivashkevich/static/media/Intro-Book-Italic.6148d169900a4a731585.ttf",
+    "static/media/Intro-Light.ttf": "/Pavel0Ivashkevich/static/media/Intro-Light.40df4ebe923b0074b422.ttf",
+    "static/media/Intro-Book.ttf": "/Pavel0Ivashkevich/static/media/Intro-Book.cd9aac58a97d24734201.ttf",
+    "static/media/Intro-Bold.ttf": "/Pavel0Ivashkevich/static/media/Intro-Bold.62034b9159ac021d21e9.ttf",
+    "static/media/Intro-Regular.ttf": "/Pavel0Ivashkevich/static/media/Intro-Regular.f2b75892c7fc6e0047d5.ttf",
+    "static/media/Intro-Regular.woff": "/Pavel0Ivashkevich/static/media/Intro-Regular.c1c6736debf32ecf7b9a.woff",
+    "static/media/Intro-Book-Italic.woff": "/Pavel0Ivashkevich/static/media/Intro-Book-Italic.449c4b0a89643a87e924.woff",
+    "static/media/Intro-Book.woff": "/Pavel0Ivashkevich/static/media/Intro-Book.047d1f862e6d617bfca0.woff",
+    "static/media/Intro-Light.woff": "/Pavel0Ivashkevich/static/media/Intro-Light.1b381bf527679c74466f.woff",
+    "index.html": "/Pavel0Ivashkevich/index.html",
+    "main.64a72355.css.map": "/Pavel0Ivashkevich/static/css/main.64a72355.css.map",
+    "main.5c0574ee.js.map": "/Pavel0Ivashkevich/static/js/main.5c0574ee.js.map",
+    "453.21c4e07c.chunk.js.map": "/Pavel0Ivashkevich/static/js/453.21c4e07c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a72355.css",
+    "static/js/main.5c0574ee.js"
+  ]
+}
