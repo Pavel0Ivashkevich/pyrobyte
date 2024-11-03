@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pyrobyte/static/css/main.252fd79a.css",
-    "main.js": "/pyrobyte/static/js/main.c9c3ee99.js",
+    "main.css": "/pyrobyte/static/css/main.50d3857e.css",
+    "main.js": "/pyrobyte/static/js/main.de4d14f2.js",
     "static/js/453.21c4e07c.chunk.js": "/pyrobyte/static/js/453.21c4e07c.chunk.js",
     "static/media/Intro-Book-Italic.eot": "/pyrobyte/static/media/Intro-Book-Italic.880b303713f057bd693b.eot",
     "static/media/Intro-Book-Italic.ttf": "/pyrobyte/static/media/Intro-Book-Italic.6148d169900a4a731585.ttf",
@@ -14,12 +14,12 @@
     "static/media/Intro-Book.woff": "/pyrobyte/static/media/Intro-Book.047d1f862e6d617bfca0.woff",
     "static/media/Intro-Light.woff": "/pyrobyte/static/media/Intro-Light.1b381bf527679c74466f.woff",
     "index.html": "/pyrobyte/index.html",
-    "main.252fd79a.css.map": "/pyrobyte/static/css/main.252fd79a.css.map",
-    "main.c9c3ee99.js.map": "/pyrobyte/static/js/main.c9c3ee99.js.map",
+    "main.50d3857e.css.map": "/pyrobyte/static/css/main.50d3857e.css.map",
+    "main.de4d14f2.js.map": "/pyrobyte/static/js/main.de4d14f2.js.map",
     "453.21c4e07c.chunk.js.map": "/pyrobyte/static/js/453.21c4e07c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.252fd79a.css",
-    "static/js/main.c9c3ee99.js"
+    "static/css/main.50d3857e.css",
+    "static/js/main.de4d14f2.js"
   ]
 }
