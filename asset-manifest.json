@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pyrobyte/static/css/main.50d3857e.css",
-    "main.js": "/pyrobyte/static/js/main.de4d14f2.js",
+    "main.js": "/pyrobyte/static/js/main.796baf8f.js",
     "static/js/453.21c4e07c.chunk.js": "/pyrobyte/static/js/453.21c4e07c.chunk.js",
     "static/media/Intro-Book-Italic.eot": "/pyrobyte/static/media/Intro-Book-Italic.880b303713f057bd693b.eot",
     "static/media/Intro-Book-Italic.ttf": "/pyrobyte/static/media/Intro-Book-Italic.6148d169900a4a731585.ttf",
@@ -15,11 +15,11 @@
     "static/media/Intro-Light.woff": "/pyrobyte/static/media/Intro-Light.1b381bf527679c74466f.woff",
     "index.html": "/pyrobyte/index.html",
     "main.50d3857e.css.map": "/pyrobyte/static/css/main.50d3857e.css.map",
-    "main.de4d14f2.js.map": "/pyrobyte/static/js/main.de4d14f2.js.map",
+    "main.796baf8f.js.map": "/pyrobyte/static/js/main.796baf8f.js.map",
     "453.21c4e07c.chunk.js.map": "/pyrobyte/static/js/453.21c4e07c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50d3857e.css",
-    "static/js/main.de4d14f2.js"
+    "static/js/main.796baf8f.js"
   ]
 }
