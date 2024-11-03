@@ -32,12 +32,12 @@
   
   .Our {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    gap: 270px;
+    
     margin-top: 6px;
     margin-bottom: 48px;
-    padding-right: 83px;
+   
 
   }
   
@@ -52,8 +52,9 @@
   }
   
   .collaborate-button {
-    display: flex;
-    align-items: center;
+    position: relative;
+    top: -128px;
+    left: 42%;
     gap: 8px;
     padding: 8px 16px;
     width: 184px;
@@ -73,7 +74,9 @@
     font-weight: 400;
     line-height: 24px; /* 150% */
   }
-  
+  .collaborate-button img{
+    padding-right: 5px;  
+  }
   .collaborate-button:hover {
     background-color: #FF6060;
     color: #FFF;

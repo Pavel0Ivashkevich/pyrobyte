@@ -11,25 +11,25 @@ const ExpressDeliverySection = () => {
       
       <div className="cards-container">
         <Card 
-          imgSrc="/images/courier-icon.png" 
+          imgSrc={`${process.env.PUBLIC_URL}/images/courier-icon.png`} 
           title="Become a Courier" 
           description="You choose a schedule. You decide how much and when to earn. Earnings from day one."
         />
         <Card 
-          imgSrc="/images/help.png" 
+          imgSrc={`${process.env.PUBLIC_URL}/images/help.png`} 
           title="Help & Support" 
           description="Door-to-door delivery in 90 minutes or at your convenience"
         />
         <Card 
-          imgSrc="/images/affliate.png" 
+          imgSrc={`${process.env.PUBLIC_URL}/images/affliate.png`} 
           title="Affiliate Program" 
           description="Use our service and feel new quality of this traditional service!"
         />
       </div>
-     
-    </div>
+   </div>
   );
 };
+
 
 const Card = ({ imgSrc, title, description }) => (
   <div className="card">

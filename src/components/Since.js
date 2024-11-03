@@ -8,7 +8,7 @@ const Since = () => {
     <div className="Since-section">
     <div class="separator">
     <div class="separator-line"></div>
-    <img src="/images/separator-icon.png" alt="Separator Icon" class="separator-icon" />
+    <img src={`${process.env.PUBLIC_URL}/images/separator-icon.png`} alt="Separator Icon" class="separator-icon" />
     <div class="separator-line"></div>
     </div>
     <p className="Since-p1">Since 2019, LibertyWalk has successfully provided express courier delivery services in the city for both individuals and legal entities, and is also a reliable logistics partner for delivery services for 

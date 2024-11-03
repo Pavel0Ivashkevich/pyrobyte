@@ -8,7 +8,7 @@
 }
 .footer-container {
     display: flex;
-    margin-left: 102px;
+    justify-content: center;
     gap: 60px;
     color: var(--Colour-DarkBlue, #1D253C);
     font-family: "Intro";
@@ -131,10 +131,10 @@ ul {
 
   .Made_by {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     margin-top: 17px;
-    margin-left: 152px;
+    margin-right: 57px;
     gap: 30%;
     color: var(--Colour-DarkBlue, #1D253C);
     font-family: "Intro";
